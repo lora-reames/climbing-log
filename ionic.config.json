@@ -1,0 +1,7 @@
+{
+  "name": "climbing-log",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
