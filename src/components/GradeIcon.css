@@ -1,0 +1,28 @@
+.icon-container {
+  position: relative;
+  display: inline-block;
+  width: 60px;  /* Adjust the size as needed */
+  height: 60px; /* Adjust the size as needed */
+  font-size: 20px; /* Adjust the font size as needed */
+}
+
+.icon-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: seagreen;
+  font-size: 60px;  /* Ensure the circle icon is large enough */
+
+}
+
+.icon-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: bold;  /* Adjust font weight as needed */
+  color: white;  /* Adjust text color as needed */
+  text-shadow: 3px 2px 0px lightseagreen;
+  /* text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4; */
+}
